@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 26
+names: ['Bicycle', 'Bus', 'Car', 'Chair', 'Desk', 'Dog', 'Door', 'Electric pole', 'Elevator', 'Low Obstacle', 'Motorcycle', 'Person', 'Roadway', 'Traffic signs', 'Tree', 'Uncovered manhole', 'Wall', 'curb', 'distressed', 'marking', 'person', 'pothole', 'sidewalk', 'stairs', 'unknown obstacle', 'zebra']
+
+roboflow:
+  workspace: a237s-workspace
+  project: blind-assistance-starter-dataset
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/a237s-workspace/blind-assistance-starter-dataset/3
